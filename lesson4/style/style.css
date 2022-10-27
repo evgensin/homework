@@ -1,0 +1,58 @@
+body{
+  margin: 0;
+  padding: 0;  
+}
+.header{
+    background-image: url(../img/надпис.png), url(../img/фон.png);
+    background-repeat: no-repeat;
+	height: 100vh;
+	background-size: 969px 206px, cover;
+	background-position: 50% 30%;
+    /*background-repeat: no-repeat;
+    background-size: 70% 20%, 100%;
+    background-position: 55% 22%, left top;
+    min-height: 90vh;*/
+}
+.napis{
+position: absolute;
+width: 304px;
+height: 48px;
+left: 112px;
+top: 732px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+color: #000000;
+margin-top: 50px;
+}
+.card> div{
+width: 400px;
+height: 460px;
+left: 112px;
+top: 812px;
+background: #231B0C;
+display: inline-block;
+margin-top: 100px;
+margin-left: 170px;
+}
+.foto{
+position: relative;
+width: 1276px;
+height: 595px;
+margin-top: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.background{
+    position: absolute;
+    width: 100%;
+    height: 279px;
+    left: -1px;
+    top: 1948px;
+    background: #150F02;
+    margin-top: 30px;
+}

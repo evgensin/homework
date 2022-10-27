@@ -1,0 +1,249 @@
+.body{
+    width: 1440px;
+	min-width: 700px;
+	margin: 0 auto;
+}
+
+.header{
+text-align: center;
+text-transform: uppercase;
+font-family: 'Roboto', sans-serif;
+font-size: 48px;
+font-weight: 400;
+}
+
+.header-blue{
+    color: #3E45E8;
+}
+.header-yellow{
+    color: #E8C23E;
+}
+
+.backimg{
+    position: relative;
+    background-image:url(../img/backfon.png);
+    width: 1500px;
+    height: 766px;
+    /*background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 71vh;
+    min-width: 100vh;*/
+}
+
+.backtext{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 157.3%;
+    color: #FFFFFF;
+    padding: 230px 215px 230px 125px
+}
+.flag-blue{
+    background: linear-gradient(180deg, #00E0FF, #1400FF);
+    width: 23px;
+    height: 145px;
+    position: absolute;
+    top: 244px;
+    left: 78px;
+}
+.flag-yellow{
+    background: linear-gradient(180deg, #FFA800, #FFF500);
+    width: 23px;
+    height: 145px;
+    position: absolute;
+    top: 389px;
+    left: 78px;
+}
+
+.place{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 700; 
+    padding-left: 80px; 
+}
+.flag-p > div{
+    width: 380px;
+    height: 12px;
+    display: inline-block;
+    }
+.content-main{
+    text-align: center;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.content >div{
+    width: 300px;
+    height: 380px;
+    border: 3px solid #0D095F;
+    border-radius: 7%;
+    display: inline-block;
+    margin-left: 77px;
+      
+}
+.content1{
+    box-shadow: -4px 0px 15px rgb(6, 160, 244);
+}
+.content2{
+    box-shadow: 0px 8px 15px rgb(6, 160, 244);
+}
+.content3{
+    box-shadow: 4px 0px 15px rgb(6, 160, 244);
+}
+
+.place-main{
+    margin-top: 30px;
+}
+.content-main{
+    margin-top: 15px;
+}
+.fontbl{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700; 
+    color: #0072DB;
+    padding-left: 10px;
+    padding-top: 10px;
+	
+}
+
+.fontyll{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400; 
+    color: #FF9900;
+    padding-left: 10px;
+}
+.victory{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 700; 
+    padding-left: 80px; 
+}
+
+.line{
+   text-align: center;
+   margin: 0px 0px 0px 74px;
+}
+
+.victory-main{
+    margin-top: 30px;   
+}
+
+.map{
+    text-align: center;
+    margin-top: 25px;
+}
+
+/**/
+.button{
+   text-align: center;
+   margin-top: 20px;
+   position: relative;
+}
+.go {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    font-weight: 700; 
+    color: white;
+}
+
+
+
+.footer{
+    height: 233px;
+    background: linear-gradient(180deg, #013235, #0D0661);
+    margin-top: 20px;
+}
+.footer-fist{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.footer-email{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Marcellus SC', serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+   
+}
+.mail-color{
+    color: #A89D9D;
+    
+}
+a{
+    text-decoration: none;
+}
+.footer-tel{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Marcellus SC', serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+    color: #A89D9D;
+}
+.footer-icon{
+    text-align: center;
+    margin-top: 20px;
+}
+.underfooter{
+    position: relative;
+    margin-top: 20px;
+}
+.pri{
+    width: 63px;
+    height: 15px;
+    left: 28px;
+    top: 2687px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+      
+    color: #000000;
+}
+
+.pri-1{
+width: 352px;
+height: 52px;
+left: 28px;
+top: 2702px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+
+color: #000000;
+}
+.pri-2{
+position: absolute;
+width: 647px;
+height: 25px;
+left: 398px;
+top: 20px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+color: #000000;
+}

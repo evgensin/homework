@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    background: #FBE4FF;
+}
+
+.header{
+height: 65px;
+background: #243B93;
+position: relative;
+
+}
+.contener-logo{
+    position: absolute;
+    top: 7px;
+    left: 19%;
+}
+
+.header-menu{
+    margin: 0;
+}
+.header-menu >ul>li{
+    display: inline-block;
+}
+
+.nav{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    overflow: auto;
+    
+}
+
+a{
+    color: #FFFFFF; 
+    text-decoration: none; 
+}
+
+.menu-language {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-language img {
+    margin-right: 9px;
+  }
+  
+  .menu-language > div {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 28px;
+  } 
