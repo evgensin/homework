@@ -24,10 +24,7 @@ font-weight: 400;
     background-image:url(../img/backfon.png);
     width: 1500px;
     height: 766px;
-    /*background-repeat: no-repeat;
-    background-size: 100%;
-    min-height: 71vh;
-    min-width: 100vh;*/
+    
 }
 
 .backtext{
@@ -81,8 +78,9 @@ font-weight: 400;
     border-radius: 7%;
     display: inline-block;
     margin-left: 77px;
-      
+     
 }
+
 .content1{
     box-shadow: -4px 0px 15px rgb(6, 160, 244);
 }
